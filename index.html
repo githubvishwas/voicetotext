@@ -10,15 +10,15 @@
 		<p><span id="version" style="padding-left: 2%"></span>1.1 </p>
 		<script>
 		
-		var scriptver="1.1"
+		var scriptver="1.2"
 		<!-- var ver = $('#version') -->
 		<!-- ver.html(scriptver); -->
 		if (annyang) {
 		  // Add our commands to annyang
 		  annyang.addCommands({
 			'hello': function() { alert('Hello world!'); },
-			'e4': function() { alert('King\'s opening!'); },
-			'd4': function() { alert('Queen\'s opening!'); },
+			'e 4': function() { alert('King\'s opening!'); },
+			'd 4': function() { alert('Queen\'s opening!'); },
 			'good': function() { alert('good boy!'); }
 		  });
 
