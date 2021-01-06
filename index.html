@@ -4,11 +4,13 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
 	</head>
 	<body>
+		<p><span id="version" style="padding-left: 2%"></span> 1.0 </p>
 		<script>
 		if (annyang) {
 		  // Add our commands to annyang
 		  annyang.addCommands({
 			'hello': function() { alert('Hello world!'); },
+			'e4': function() { alert('Hello world!'); },
 			'good': function() { alert('good boy!'); }
 		  });
 
